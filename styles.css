@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.info {
+  flex: 1;
+  padding: 20px;
+}
+
+.info h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.info p {
+  line-height: 1.6;
+}
+
+.imagen {
+  flex: 1;
+  text-align: center;
+}
+
+.imagen img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px 0 0 8px;
+}
